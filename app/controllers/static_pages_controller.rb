@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+class StaticPagesController < ApplicationController
   before_filter :authorize, only:[:home]
   def home
   end
