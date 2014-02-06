@@ -1,5 +1,5 @@
 class TopicsController < ApplicationController
-   
+   before_filter :authorize, only:[:new, :edit, :update, :destroy]
   def show
     @topic = Topic.find(params[:id])
     @topic.hit! if @topic
