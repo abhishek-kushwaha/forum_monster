@@ -66,19 +66,21 @@ blockquote {
  input[type="text"]{border:1px solid #ccc; padding:3px; width: 100%;}
   input[type="submit"]{border:1px solid #000; color:#fff; cursor:pointer; background:#444; padding:5px 10px; text-align: center;}
 
-  #login-box {
-	width:333px;
-	height: 352px;
-	padding: 58px 76px 0 76px;
-	color: #ebebeb;
-	margin:0px auto;
-	font: 12px Arial, Helvetica, sans-serif;
-	background: url(login-box-backg.png) no-repeat left top;
+
+#login-box {
+width: 333px;
+
+padding: 40px;
+color: #ebebeb;
+margin: 0px auto;
+font: 12px Arial, Helvetica, sans-serif;
+background: #1f58a6;
 }
 
 #login-box img {
 	border:none;
 }
+
 
 #login-box h2 {
 	padding:0;
@@ -99,14 +101,14 @@ blockquote {
 
 
 
-.form-login  {
-	width: 100% ;
-	padding: 10px 4px 6px 3px !important;
-	border: 1px solid #0d2c52 !important;
-	background-color:#1e4f8a !important;
-	font-size: 16px;
-	color: #ebebeb;
-	margin-top:10px;
+.form-login {
+width: 100%;
+padding: 10px 4px 6px 3px !important;
+border: 1px solid #0d2c52 !important;
+background-color: #1e4f8a !important;
+font-size: 16px;
+color: #ebebeb;
+margin-top: 10px;
 }
 
 
